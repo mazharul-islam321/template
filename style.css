@@ -1,6 +1,6 @@
 *{
 	margin:0;
-	padding: 0;
+	padding: 0;	
 }
 /*h1,h2,h3,h4,h5,h6,p,a,button,ul,li{
 	font-family: 'Poppins', sans-serif;
@@ -9,43 +9,42 @@
 	background-color: #ff871c;
 	width: 100%;
 	height: 480px;
+	overflow: hidden;
 }
 .first-box{
 	width: 100%;	
-	height: 50px;
+	height: 10%;
 }
 
 
 .header{
     width: 50%;
-    height: 50px;
+    height: 99%;
     float: left;   
-    overflow: hidden;
 }
 .fa-atlas{
-    width: 20px;
-    height: 20px;
+    width: 11%;
     display: inline-block;
-    font-size: 20px;
+    font-size: 74%;
     color: #fff;
 }
 .header h2{
-	padding:10px 240px;
+	padding:1.5% 35%;
 	color: #fff;
 	font-size: 27px;
+
 }
 
 
 .nav-bar{
 	width: 50%;
-	height: 50px;
+	height: 99%;
 	float: right;
 }
 .nav-bar ul li{
 	list-style-type: none;
 	float: left;
-	padding: 15px 12px;
-	
+	padding: 2.2% 2.1%;	
 }
 .nav-bar ul li a{
 	text-decoration: none;
@@ -86,14 +85,11 @@
 
 .banner{
 	width: 50%;
-	height: 354px;
 	float: right;
 }
-.banner img{
-	height: 230px;
-	width: 230px;
+.banner img{	
+	width: 33%;
 	margin-top: 14%;
-	margin-left: 30px;
 }
 
 /*second-container*/
@@ -101,29 +97,42 @@
 
 .second-container {
    width: 100%;
-   height:100px;
+   height: 180px;
    background-color: #fff;
-   padding: 50px 310px;
+
 }
 .second-container h2{
 	color: #ff871c;
 	font-size: 30px;
+	margin-bottom: 7px;
+	margin-top: 5px;
+}
+.all-boxes{
+	width: 60%;
+	height: 180px;
+	margin: auto;
 }
 .box{
-	width: 150px;
-	height: 100px;
+	width: 16%;
+	height: 66%;
 	float: left;
 	border:1px solid #ddd;
-	padding-top: 5px;
-	margin-right: 50px;
-	margin-bottom: 10px;
 	font-size: 18px;
 	text-align: center;
+	margin-right: 4%;
+	margin-top: 4%;
+	overflow: hidden;
 }
 .box i{
+	margin-top: 10px;
 	font-size: 25px;
 	color: #ff871c;
 }
+.box11{
+	margin-left: 11%;
+}
+
+
 
 /*third container.........*/
 
@@ -148,7 +157,7 @@
 }
 .overview hr.one{
 	width: 80px;
-    margin-left: 630px;
+    margin: auto;
     height: 2px;
     border: none;
     background:#ff871c; 
@@ -156,20 +165,24 @@
 
 
 .third-box1{
-	width: 100%;
+	width: 60%;
 	height: 200px;
-	padding: 0px 295px;
+    margin: auto;
+   
 }
 .chapter{
 	float: left;
 	border: 1px solid #ddd;
 	background-color: #fff;
-	margin-right: 22px;
-	padding: 5px;
+	margin-right: 3.5%;
 	text-align: center;
-	width: 160px;
-    height: 160px;
+	width: 20%;
+    height: 81%;
     font-size: 13px;
+    overflow: hidden;
+}
+.third-box1 .one{
+	margin-left: 3.5%;
 }
 .chapter i{
 	font-size: 40px;
@@ -180,20 +193,23 @@
 
 
 .third-box2{
-	width: 100%;
+	width: 60%;
 	height: 200px;
-	padding: 0px 295px;
+    margin: auto;
 }
 .chapters{
 	float: left;
 	border: 1px solid #ddd;
 	background-color: #fff;
-	margin-right: 22px;
-	padding: 5px;
+	margin-right: 3.5%;
 	text-align: center;
-	width: 160px;
-    height: 160px;
+	width: 20%;
+    height: 81%;
     font-size: 13px;
+    overflow: hidden;
+}
+.third-box2 .five{
+	margin-left: 3.5%;
 }
 .chapters i{
 	font-size: 40px;
@@ -201,7 +217,10 @@
 	padding-top: 5px;
 }
 
+
 /*fourth container............*/
+
+
 
 .fourth-container{
 	width: 100%;
@@ -222,22 +241,32 @@
 }
 .video-review hr.two{
 	width: 80px;
-    margin-left: 630px;
-     height: 2px;
+    margin: auto;
+    height: 2px;
     border: none;
     background:#fff;    
 }
 
 
 .fourth-box1{
-	padding-left: 370px;
+	width: 100%;
+	height: 380px;
+	
 }
-
+.frame{
+	width: 46%;
+	height: 380px;
+	margin: auto;
+}
+.frame iframe{
+	width:100%; 
+	height:375px;
+}
 /*fifth container............*/
 
 .fifth-container{
 	width: 100%;
-	height: 550px;
+	height: 570px;
 	background-color: #fff;
 }
 .about-author{
@@ -250,49 +279,54 @@
 }
 .about-author hr.three{
 	width: 80px;
-    margin-left: 630px;
+    margin: auto;
     height: 2px;
     border: none;
     background:#ff871c; 
 }
 .figth-box1{
 	width: 100%;
-	background-color: green;
+	height: 370px;
 }
 .author-img{
 	width: 50%;
 	float: left;
 }
 .author-img img{
+	width:60%;
+	height:352px;
 	padding-left: 39%;
 }
+
+
 .author-details{
 	width: 50%;
-	float: right;
+	float: left;
 }
 .author-details h2{
-	padding-top: 20px;
+	padding-top: 3%;
     font-size: 21px;
-    padding-left: 10px;
+    padding-left: 1.5%;
 }
 .author-details hr.four{
-	width: 385px;
-	margin-left: 10px;
+	width: 57%;
+	margin-left: 1.5%;
 	height: 2px;
 	border: none;
 	background: #ddd;
 }
 .author-details p{
 	font-size: 13px;
-	padding-top: 10px;
-	padding-left: 10px;
+	padding-top: 3%;
+	padding-left: 1.5%;
 }
 .author-details img{
-	width: 150px;
+	width: 23%;
 	height: 90px;
+	padding-left: 1.5%;
 }
 .icons{
-	padding-left: 10px;	
+	padding-left: 1.5%;	
 }
 .icons a.author-icon {	
     margin-right: 3px;		
@@ -315,7 +349,7 @@
 	text-align: center;	
 }
 .Pricing-plan h2{
-	padding-top: 70px;
+	padding-top: 6%;
 }
 .Pricing-plan p{
 	padding-top:17px;
@@ -323,21 +357,30 @@
 }
 .Pricing-plan hr.five{
 	width: 80px;
-    margin-left: 630px;
+    margin: auto;
     height: 2px;
     border: none;
     background:#ff871c;    
 }
+
+
 .all-plan{
 	width: 100%;
-	padding-left: 310px;
+	
+}
+.plan-container{
+	width: 58%;
+	height: 320px;
+	margin: auto;
+	padding-left: 2%;
+	overflow: hidden;
 }
 .plan{
 	float: left;
-	width: 230px;
+	width: 30%;
 	height: 320px;	
 	text-align: center;
-	margin-right:20px;
+	margin-right:3%;
 }
 .plan h5{
 	padding-top: 20px;
@@ -391,7 +434,7 @@
 }
 .seventh-container hr.six{
 	width: 80px;
-    margin-left: 630px;
+    margin: auto;
     height: 2px;
     border: none;
     background:#ff871c; 
@@ -422,7 +465,7 @@
 }
 .eighth-class hr.seven{
     width: 80px;
-    margin-left: 630px;
+    margin: auto;
     height: 2px;
     border: none;
     background:#ff871c; 
